@@ -1,0 +1,54 @@
+import React from "react";
+// import Header from {Header} 'bootstrap';
+// import "./carousel.css";
+// import "./pallete.css";
+import "./Header.css"
+
+function Header() {
+    return (
+        <div>
+            {/* Navbar*/}
+            < header className="header">
+                < div className="navCa" >
+                    <a className="headerLogo" href="#">
+                        <img className="imgLogo" srcSet="/img/logo/mblackwatermark.png" alt="" />                        
+                    </a>
+                    <nav className="navbar navbar-expand-lg navbarMain">
+                        <button className="navbar-toggler w-100 text-right" type="button" data-toggle="collapse"
+                            data-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon">
+                                <div className="menuIcon"></div>
+                                <div className="menuIcon"></div>
+                                <div className="menuIcon"></div>
+                            </span>
+                        </button>
+                        <div className="collapse navbar-collapse" id="navbarText">
+
+                            <ul className="navbar-nav ml-auto">
+
+                                <li className="nav-item">
+                                    <a id="startLink" className="nav-link navLink" href="/">Home</a>
+                                </li>
+
+                                <li className="nav-item">
+                                    <a id="sumaryLink" className="nav-link navLink" href="/">New Collections</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a id="skillsLink" className="nav-link navLink" href="#">All Products</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link navLink" href="#">Contact</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div >
+            </header >
+        </div>
+    );
+}
+
+export default Header;
+
