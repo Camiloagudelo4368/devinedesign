@@ -30,15 +30,17 @@ function Header() {
                                 <li className="nav-item">
                                     <a id="startLink" className="nav-link navLink" href="/">Home</a>
                                 </li>
-
                                 <li className="nav-item">
-                                    <a id="sumaryLink" className="nav-link navLink" href="/">New Collections</a>
+                                    <a id="aboutLink" className="nav-link navLink" href="/about">Why?</a>
+                                </li>
+                                {/* <li className="nav-item">
+                                    <a id="sumaryLink" className="nav-link navLink" href="/newcollection">New Collections</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a id="skillsLink" className="nav-link navLink" href="#">All Products</a>
-                                </li>
+                                    <a id="skillsLink" className="nav-link navLink" href="/newcollection">All Products</a>
+                                </li> */}
                                 <li className="nav-item">
-                                    <a className="nav-link navLink" href="#">Contact</a>
+                                    <a className="nav-link navLink" href="mailto:divinebloomsbowtique@gmail.com">Contact</a>
                                 </li>
 
                             </ul>

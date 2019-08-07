@@ -11,46 +11,42 @@ function Footer() {
           <div className="row">
             {/* First column*/}
             <div className="col-md-3 offset-md-1">
-              <h5 className="font-weight-bold text-uppercase mb-4">About Devine design</h5>
-              <p>Devine Design Bowtique is a design language developed by Google. </p>
-              <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML,
-                  CSS,
-                        and JS framework - Bootstrap.</p>
+              <h5 className="font-weight-bold text-uppercase mb-4">Divine design</h5>
+              <p>
+                I love making hair bows for my girl and was always asked to sell them but had not wanted to put my self out there like that for silly reasons. (we all deal with our own insecurities) I finally felt it was time to step out of my comfort zone and do something that I love. Please join me to be part of this  new adventure created by God.
+              </p>
             </div>
             {/* /.First column*/}
             <hr className="clearfix w-100 d-md-none" />
             {/* Second column*/}
             <div className="col-md-2 offset-md-1">
-              <h5 className="font-weight-bold text-uppercase mb-4">First column</h5>
+              <h5 className="font-weight-bold text-uppercase mb-4">Bows</h5>
               <ul className="list-unstyled">
-                <li><a href="#!">Link 1</a></li>
-                <li><a href="#!">Link 2</a></li>
-                <li><a href="#!">Link 3</a></li>
-                <li><a href="#!">Link 4</a></li>
+                <li><a href="#!">All Products</a></li>
+                <br></br>
+                <li><a href="#!">New Collection</a></li>
               </ul>
             </div>
             {/* /.Second column*/}
             <hr className="clearfix w-100 d-md-none" />
             {/* Third column*/}
             <div className="col-md-2">
-              <h5 className="font-weight-bold text-uppercase mb-4">Second column</h5>
+              <h5 className="font-weight-bold text-uppercase mb-4">Felt Flowers</h5>
               <ul className="list-unstyled">
-                <li><a href="#!">Link 1</a></li>
-                <li><a href="#!">Link 2</a></li>
-                <li><a href="#!">Link 3</a></li>
-                <li><a href="#!">Link 4</a></li>
+                <li><a href="#!">All Products</a></li>
+                <br></br>
+                <li><a href="#!">New Collection</a></li>
               </ul>
             </div>
             {/* /.Third column*/}
             <hr className="clearfix w-100 d-md-none" />
             {/* Fourth column*/}
             <div className="col-md-2">
-              <h5 className="font-weight-bold text-uppercase mb-4">Third column</h5>
+              <h5 className="font-weight-bold text-uppercase mb-4">Hair Clips</h5>
               <ul className="list-unstyled">
-                <li><a href="#!">Link 1</a></li>
-                <li><a href="#!">Link 2</a></li>
-                <li><a href="#!">Link 3</a></li>
-                <li><a href="#!">Link 4</a></li>
+                <li><a href="#!">All Products</a></li>
+                <br></br>
+                <li><a href="#!">New Collection</a></li>
               </ul>
             </div>
             {/* /.Fourth column*/}
@@ -60,24 +56,24 @@ function Footer() {
         <hr></hr>
         {/* Call to action*/}
         <div className="call-to-action text-center">
-          <h4 className="my-4">Material Design for Bootstrap</h4>
+          <h4 className="my-4">Follow Us</h4>
           <ul className="list-unstyled list-inline mb-4">
             <li>
-              <h5 className="my-4">Get our UI KIT for free</h5>
+              <h5 className="my-4">Get our latest news</h5>
             </li>
-            <li className="list-inline-item"><a target="_blank" href="https://mdbootstrap.com/getting-started/"
-              className="btn btn-info">Sign up!</a></li>
-            <li className="list-inline-item"><a target="_blank"
-              href="https://mdbootstrap.com/material-design-for-bootstrap/" className="btn btn-default">Learn
-                        more</a>
-            </li>
+            <li className="list-inline-item"><a href="https://www.instagram.com/divine_blooms/"
+              className="fab fa-instagram fa-2x"></a></li>&nbsp;
+            <li className="list-inline-item"><a href="https://www.facebook.com/Divine-Blooms-Bowtique-102340111123527/"
+              className="fab fa-facebook fa-2x"></a></li>&nbsp;
+            <li className="list-inline-item"><a href="https://www.etsy.com/shop/DivineBloomsbowtique"
+              className="fab fa-etsy fa-2x"></a></li>
           </ul>
         </div>
         {/* /.Call to action*/}
         {/* Copyright*/}
         <div className="footer-copyright text-center">
           <div className="container-fluid py-3">
-            © 2018 Copyright: <a href="https://www.BDBowtique.com">BDBowtique.com</a>
+            © 2019 Copyright: <a href="https://www.DBBowtique.com">DBBowtique.com</a>
           </div>
         </div>
         {/* /.Copyright*/}
