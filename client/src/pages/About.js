@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import About from "../components/About";
 import "./style.css"
 
-class NewCollections extends Component {
+class AboutUs extends Component {
 
   render() {
     return (
@@ -18,4 +18,4 @@ class NewCollections extends Component {
   }
 }
 
-export default NewCollections;
+export default AboutUs;

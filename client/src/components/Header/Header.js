@@ -31,7 +31,7 @@ function Header() {
                                     <a id="startLink" className="nav-link navLink" href="/">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a id="aboutLink" className="nav-link navLink" href="/about">Why?</a>
+                                    <a id="aboutLink" className="nav-link navLink" href="/aboutus">Why?</a>
                                 </li>
                                 {/* <li className="nav-item">
                                     <a id="sumaryLink" className="nav-link navLink" href="/newcollection">New Collections</a>
