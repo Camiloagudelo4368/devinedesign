@@ -1,17 +1,13 @@
 import React from "react";
-// import Header from {Header} 'bootstrap';
-// import "./carousel.css";
-// import "./pallete.css";
 import "./Header.css"
 
 function Header() {
     return (
         <div>
-            {/* Navbar*/}
             < header className="header">
                 < div className="navCa" >
-                    <a className="headerLogo" href="#">
-                        <img className="imgLogo" srcSet="/img/logo/mblackwatermark.png" alt="" />                        
+                    <a className="headerLogo" href="/">
+                        <img className="imgLogo" srcSet="/img/logo/mblackwatermark.png" alt="" />
                     </a>
                     <nav className="navbar navbar-expand-lg navbarMain">
                         <button className="navbar-toggler w-100 text-right" type="button" data-toggle="collapse"
@@ -23,6 +19,7 @@ function Header() {
                                 <div className="menuIcon"></div>
                             </span>
                         </button>
+
                         <div className="collapse navbar-collapse" id="navbarText">
 
                             <ul className="navbar-nav ml-auto">
@@ -44,8 +41,13 @@ function Header() {
                                 </li>
 
                             </ul>
+
                         </div>
+
                     </nav>
+                    <div>
+                        <a id="placeOrderLink" target="_blank" href="https://www.etsy.com/shop/DivineBloomsbowtique">Place your order</a>
+                    </div>
                 </div >
             </header >
         </div>

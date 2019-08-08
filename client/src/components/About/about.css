@@ -33,7 +33,6 @@ h1, h2, h3, ul {
     font-family: 'Stylish', sans-serif;
 }
 
-
 .aboutContainer {
     background-image: url("/img/logo/m3.jpg");
     background-image: url("/img/logo/m3.png");
@@ -46,6 +45,32 @@ h1, h2, h3, ul {
     height: 100vh;
 }
 
-.aboutContainer p{
-    font-size: 2rem;
+.aboutTitle {
+    font-size: 2.5rem;
+    color: #111111;
+    font-weight: bold;
 }
+
+.aboutContainer p {
+    font-size: 1.8rem;
+    color: #888888;
+    color: #111111;
+}
+
+/* Media query */
+
+@media (max-width: 992px) {
+    .aboutContainer p {
+        font-size: 1.36rem;
+        /* height: ; */
+        /* width: 100vw; */
+        /* height: 100vh; */
+    }
+
+    .aboutContainer {        
+        /* width: 100vw; */
+        height: 100%;
+    }
+}
+
+/* ---------------------------------- */

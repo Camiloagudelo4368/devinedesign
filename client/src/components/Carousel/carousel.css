@@ -66,60 +66,25 @@ h1, h2, h3, ul {
 }
 
 .headerLogo {
-    /* background-color: rgba(255, 255, 255, .4) ; */
-    /* background-color: #111111; */
-    /* position: absolute; */
-    /* top: 1rem; */
-    /* left:0; */
-    /* left:45%; */
-    /* padding-top: .35rem; */
-    /* width: 100%; */
-    /* text-align: center; */
-    /* text-align: left;    */
     z-index: 1000;
-    /* float: left; */
     position: absolute;
-    /* width: 150px;
-    height: 100px; */
     top: 1rem;
-    /* float: left; */
-    /* position: relative; */
-    /* margin: 0 0 0 10%; */
     margin-left: 10%;
 }
 
 .headerLogo img {
     width: 158px;
-    /* height: auto; */
     border-bottom: .001rem solid #BDBDBD;
 }
 
 .navCa {
-    /* margin: 0 auto; */
-    /* position: absolute; */
-    /* background-color: transparent; */
     padding: 0rem 0rem 0rem 0rem;
-    /* margin: 0; */
-    /* margin: 2rem 0rem 0rem 0rem; */
-    /* top: 13rem; */
-    /* top: 1.75rem; */
-    width: 55%;
-    /* float:right; */
     width: 100%;
-    /* height: 100px;; */
-    /* float: right; */
-    /* top: 1rem; */
-    /* padding: 2rem */
-    /* border-bottom: .001rem solid #BDBDBD; */
-    /* border-bottom: .001rem solid #BDBDBD; */
     box-shadow: none !important;
 }
 
 .header {
-    /* background-color: #fff; */
-    /* background-color: rgba(255, 255, 255, .3); */
     width: 100%;
-    /* height: 100px; */
     align-items: baseline;
     position: fixed;
     top: 0;
@@ -292,20 +257,10 @@ nav {
     position: relative;
     top: 13rem;
     left: 0;
-    /* background-image: url(../img/main/slideimage1.JPEG); */
-    /* background-image: url(../img/main/slideimage2.JPEG); */
-    /* background-image: url(../img/main/slideimagevertical1.JPEG); */
-    /* background-image: url(../img/main/slideimage3.JPEG); */
-    /* background-image: url(../img/main/slideimage4.JPEG); */
-    /* background-image: url(../img/main/slideimage5.JPEG); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    /* background-size: cover; */
     height: 70vh;
-    /* Add the blur effect */
-    /* filter: blur(8px); */
-    /* -webkit-filter: blur(0px); */
 }
 
 .start {

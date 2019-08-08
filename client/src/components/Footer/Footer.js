@@ -23,7 +23,6 @@ function Footer() {
               <h5 className="font-weight-bold text-uppercase mb-4">Bows</h5>
               <ul className="list-unstyled">
                 <li><a href="#!">All Products</a></li>
-                <br></br>
                 <li><a href="#!">New Collection</a></li>
               </ul>
             </div>
@@ -34,7 +33,6 @@ function Footer() {
               <h5 className="font-weight-bold text-uppercase mb-4">Felt Flowers</h5>
               <ul className="list-unstyled">
                 <li><a href="#!">All Products</a></li>
-                <br></br>
                 <li><a href="#!">New Collection</a></li>
               </ul>
             </div>
@@ -45,7 +43,6 @@ function Footer() {
               <h5 className="font-weight-bold text-uppercase mb-4">Hair Clips</h5>
               <ul className="list-unstyled">
                 <li><a href="#!">All Products</a></li>
-                <br></br>
                 <li><a href="#!">New Collection</a></li>
               </ul>
             </div>
